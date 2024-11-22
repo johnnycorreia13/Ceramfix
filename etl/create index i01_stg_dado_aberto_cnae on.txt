@@ -1,0 +1,29 @@
+create index i01_stg_dado_aberto_cnae on projjetta.stg_dado_aberto_cnae (cod_cnae);
+
+create index i01_stg_dado_aberto_municipio on projjetta.stg_dado_aberto_municipio (cod_cidade);
+
+create index i01_stg_dado_aberto_pais on projjetta.stg_dado_aberto_pais (cod_pais);
+
+create index i01_stg_dado_aberto_empresa on projjetta.stg_dado_aberto_empresa (cod_cnpj_raiz);
+
+create index i02_stg_dado_aberto_empresa on projjetta.stg_dado_aberto_empresa (cod_natureza_juridica);
+
+create index i03_stg_dado_aberto_empresa on projjetta.stg_dado_aberto_empresa (cod_qualificacao_responsavel);
+
+create index i01_stg_dado_aberto_natureza on projjetta.stg_dado_aberto_natureza (cod_natureza_juridica);
+
+create index i01_stg_dado_aberto_qualificacao on projjetta.stg_dado_aberto_qualificacao (cod_qualificacao_responsavel);
+
+create index i01_stg_dado_aberto_simples on projjetta.stg_dado_aberto_simples (num_raiz_cnpj);
+
+create index i01_stg_dado_aberto_estabelecimento on projjetta.stg_dado_aberto_estabelecimento (num_raiz_cnpj);
+
+create index i02_stg_dado_aberto_estabelecimento on projjetta.stg_dado_aberto_estabelecimento (cod_cnae);
+
+create index i03_stg_dado_aberto_estabelecimento on projjetta.stg_dado_aberto_estabelecimento (cod_cidade);
+
+create index i04_stg_dado_aberto_estabelecimento on projjetta.stg_dado_aberto_estabelecimento (cod_pais);
+
+
+
+
